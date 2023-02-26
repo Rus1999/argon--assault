@@ -63,6 +63,7 @@ public class PlayerControls : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             SetLaserActive(true);
+            Debug.Log("Fire!");
         }
         else
         {
